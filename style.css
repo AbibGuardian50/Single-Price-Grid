@@ -50,11 +50,13 @@ body {
     font-size: 1.5rem;
 }
 
-
 button:hover {
     cursor: pointer;
 }
 
+button:active {
+    background-color: beige;
+}
 
 button {
     background: hsl(71, 73%, 54%);
@@ -72,14 +74,9 @@ button {
 
 .fee-subs {
     background: hsl(179, 62%, 43%);
-    /* padding-right: 1.1765rem; */
     padding: 1rem 1rem 0.5rem 2rem;
     border-radius: 0.2rem 0rem 0rem 0.2rem;
 }
-
-/* .fee-subs h3, .fee-subs p, .fee-subs button {
-    padding-left: 2rem;
-} */
 
 .join {
     background: #fff;
@@ -115,7 +112,6 @@ main {
 
 .why-us {
     background-color: hsla(179deg, 62%, 50%, 0.819);
-    /* padding-right: 3.5295rem; */
     padding: 2rem 5.60rem 1.5rem 2rem;
     border-radius: 0rem 0rem 0.2rem 0rem;
 }
