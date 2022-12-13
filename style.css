@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+footer a ,footer p {
+    font-size: 0.575rem;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: hsl(204, 43%, 93%);
+}
+
+.bottom-content {
+    display: flex;
+}
+
+.bottom-content .fee-subs h3,.bottom-content .fee-subs span,.bottom-content .fee-subs p {
+    color: hsl(204, 43%, 93%);
+}
+
+.bottom-content .fee-subs h3,.bottom-content .fee-subs p {
+    margin-top: 1rem;
+}
+
+.bottom-content .fee-subs h3 {
+    font-weight: 700;
+}
+
+.bottom-content .fee-subs p {
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.bottom-content .fee-subs  .month {
+    font-size: 0.475rem;
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+}
+
+.bottom-content .fee-subs span {
+    font-size: 1.5rem;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+
+button {
+    background: hsl(71, 73%, 54%);
+    border: 0;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    padding-right: 4.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 4.5rem ;
+    border-radius: 0.2rem;
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.fee-subs {
+    background: hsl(179, 62%, 43%);
+    /* padding-right: 1.1765rem; */
+    padding: 1rem 1rem 0.5rem 2rem;
+    border-radius: 0.2rem 0rem 0rem 0.2rem;
+}
+
+/* .fee-subs h3, .fee-subs p, .fee-subs button {
+    padding-left: 2rem;
+} */
+
+.join {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 0.2rem 0.2rem 0rem 0rem;
+}
+
+.join h2 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+}
+
+.join h3 {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 0.5rem;
+}
+
+.join p {
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.why-us {
+    background-color: hsla(179deg, 62%, 50%, 0.819);
+    /* padding-right: 3.5295rem; */
+    padding: 2rem 5.60rem 1.5rem 2rem;
+    border-radius: 0rem 0rem 0.2rem 0rem;
+}
+
+.why-us h3 {
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.why-us p {
+    font-size: 0.675rem;
+    color: hsl(204, 43%, 93%);
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+@media screen and (max-width:480px) {
+
+    body {
+        min-height: 0;
+    }
+
+    button {
+        margin-bottom: 0.375rem;
+    }
+
+    main {
+        display: inline-block;
+    }
+
+    .bottom-content {
+        display: block;
+    }
+
+    .join {
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding: 0.75rem 0rem 0.75rem 0.75rem;
+    }
+
+    .join p {
+        font-size: 0.85rem;
+        display: inline;
+    }
+
+    .fee-subs {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 0rem;
+    }
+
+    .why-us {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 0rem 0rem 0.2rem 0.2rem;
+        padding-bottom: 1rem;
+    }
+}
