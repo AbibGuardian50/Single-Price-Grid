@@ -75,7 +75,7 @@ button {
 .fee-subs {
     background: hsl(179, 62%, 43%);
     padding: 1rem 1rem 0.5rem 2rem;
-    border-radius: 0.2rem 0rem 0rem 0.2rem;
+    border-radius: 0rem 0rem 0rem 0.2rem;
 }
 
 .join {
